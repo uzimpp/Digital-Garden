@@ -1,5 +1,6 @@
 {
-  "scripts": {
-    "build:scss": "node-sass src/styles/styles.scss -o static/css"
+    "scripts": {
+      "build": "hugo",
+      "vercel-build": "npm run build"
+    }
   }
-}
